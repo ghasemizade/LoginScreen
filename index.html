@@ -11,23 +11,42 @@
     <div class="container">
         <form>
             <h3>Log In</h3>
-            <div class="inputbox">
+            <!-- username field -->
+            <div class="username">
                 <span>Username</span>
                 <div class="box">
                     <div class="icon">
+                        <ion-icon name="person"></ion-icon>
                         <input type="text" class="text">
                     </div>
                 </div>
             </div>
-            <div class="inputbox">
+            <!-- password field -->
+            <div class="password">
                 <span>Password</span>
                 <div class="box">
                     <div class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
                         <input type="password" class="password">
                     </div>
                 </div>
             </div>
+            <label>
+                <input type="checkbox" class="checkbox">Remember me
+            </label>
+            <!-- login button -->
+            <div class="login">
+                <div class="box">
+                    <div class="icon">
+                        <input type="submit" value="Login">
+                    </div>
+                </div>
+            </div>
+            <a href="#">Forget Password</a>
         </form>
     </div>
+    <!-- installation icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
