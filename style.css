@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-height: 100vh;
     background-color: #3f4246;
     
@@ -33,7 +34,6 @@ body{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
 .inputbox{
     position: relative;
     width: 100%;
@@ -48,4 +48,18 @@ body{
     text-align: center;
     color: white;
     font-size: 18px;
+}
+.username{
+    font-size: 1.5rem;
+
+}
+.password{
+    font-size: 1.5rem;
+}
+.rememberText{
+    color: white;
+    font-weight: 700;
+}
+.checkbox{
+    justify-content: center;
 }
