@@ -1,10 +1,18 @@
-let inputUserName = document.getElementById('username').value
-let inputPassword = document.getElementById('password').value
+let inputUserName = document.getElementById('username')
+let inputPassword = document.getElementById('password')
 
 function checkLoginForm() {
-    if (inputUserName.length < 12 && inputPassword.length < 8) {
-        alert('it is to short...!')
-    }else{
-        alert('your login :)')
+    
+    let userNameValue = inputUserName.value
+    let passwordValue = inputPassword.value
+
+    // console.log(inputUserName.value)
+    
+    if (userNameValue.length < 12 && passwordValue.length < 8) {
+            alert('it is to short...!')
+        }else{
+                alert('your login :)')
+            }
     }
-}
+    
+    
