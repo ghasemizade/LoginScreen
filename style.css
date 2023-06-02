@@ -82,3 +82,8 @@ input{
 span{
     text-align: center;
 }
+.title-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
