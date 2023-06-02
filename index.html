@@ -18,7 +18,7 @@
                     <label for="username">Username</label>
                 </div>
                 <div class="box">
-                    <input type="text" class="text" id="username">
+                    <input value="hosein" type="text" class="text" id="username" required>
                 </div>
             </div>
             <!-- password field -->
@@ -28,7 +28,7 @@
                     <label for="password">Password</label>
                 </div>
                 <div class="box">
-                    <input type="password" class="text" id="password">
+                    <input value="hoseinghasemi" type="password" class="text" id="password" required>
                 </div>
             </div>
                 <input id="checkbox" type="checkbox" class="checkbox"/>
@@ -37,13 +37,15 @@
             <div class="login">
                 <div class="box">
                     <div class="button">
-                        <input class="submit" type="submit" value="Login">
+                        <input onclick="checkLoginForm()" class="submit" type="submit" value="Login">
                     </div>
                 </div>
             </div>
             <a href="">Forget Password</a>
         </form>
     </div>
+    <!-- import js file -->
+    <script src="./app.js"></script>
     <!-- installation icon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
