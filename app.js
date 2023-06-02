@@ -5,14 +5,21 @@ function checkLoginForm() {
     
     let userNameValue = inputUserName.value
     let passwordValue = inputPassword.value
-
-    // console.log(inputUserName.value)
+    let modal = document.getElementById('modal')
     
     if (userNameValue.length < 12 && passwordValue.length < 8) {
-            alert('it is to short...!')
+            modal.style.display = 'block'
+            setTimeout(function () {
+                modal.style.display = 'none'
+            }, 3000)
         }else{
-                alert('your login :)')
-            }
+            modal.style.backgroundColor = 'green'
+            modal.style.display = 'block'
+
+            setTimeout(function () {
+                modal.style.display = 'none'
+            }, 3000)
+        }
     }
     
     
